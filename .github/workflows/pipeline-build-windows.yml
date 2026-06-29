@@ -1,5 +1,6 @@
 name: Build windows pipeline
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       environment:
